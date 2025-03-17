@@ -43,6 +43,12 @@ function Boimela() {
   const [searchTerm, setSearchTerm] = useState("");
   const [books, setBooks] = useState(BOOKS);
 
+  /*
+    1. here map iterating each object of the books array and store single object in book, then spread operator copy that object from book and then update that book.featured if condition match. then setBooks useState er books ke update kore dey.
+    
+    2. book.id === id ? (book.featured = !book.featured) : book; eta evabew kora jeto but tokhon r immutable hoto na. but react always immutable prefer kore. tai spread operator use kora hoy.
+
+  */
   const toggleFeatured = (id) => {
     setBooks(
       books.map((book) =>

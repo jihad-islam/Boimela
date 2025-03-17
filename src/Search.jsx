@@ -6,8 +6,8 @@ function Search({ searchTerm, onSearchBook }) {
     <form>
       <input
         type="text"
-        value={searchTerm}
         placeholder="Search Books..."
+        value={searchTerm}
         onChange={(event) => onSearchBook(event.target.value)} // This is the change
         className="mb-4 border rounded-md p-1 w-full"
       />
