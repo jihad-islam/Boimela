@@ -1,4 +1,4 @@
-# CarsMart
+# BoiMela
 
 BoiMela is a simple React application where users can search for books and can give stars to favourite books. The project is built with **React** and **TailwindCSS**.
 
