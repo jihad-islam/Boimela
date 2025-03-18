@@ -11,6 +11,7 @@ function BookList({ searchTerm, books, onFeatureBook }) {
       return;
     }
 
+    // else condition
     rows.push(
       <BookRow key={book.id} book={book} onFeatureBook={onFeatureBook} />
     );
