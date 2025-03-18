@@ -19,7 +19,7 @@ function BookList({ searchTerm, books, onFeatureBook }) {
   return <div className="space-y-4">{rows}</div>;
 }
 
-BookList.PropTypes = {
+BookList.propTypes = {
   searchTerm: PropTypes.string.isRequired,
   books: PropTypes.array.isRequired,
   onFeatureBook: PropTypes.func.isRequired,

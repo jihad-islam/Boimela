@@ -10,7 +10,7 @@ function FeatureBook({ book, onFeatureBook }) {
   );
 }
 
-FeatureBook.PropTypes = {
+FeatureBook.propTypes = {
   book: PropTypes.object.isRequired,
   onFeatureBook: PropTypes.func.isRequired,
 };

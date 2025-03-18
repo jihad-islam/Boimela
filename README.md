@@ -1,14 +1,13 @@
 # BoiMela
 
-BoiMela is a simple React application where users can search for books and can give stars to favourite books. The project is built with **React** and **TailwindCSS**.
+This project is a book management application called "Boimela" built with React. It allows users to view a list of books, search for them by title, and mark books as favorites by clicking on a star icon.
 
 ## 📂 Features
 
-- Search for books by name
-- Star favourite books
-- Styled using TailwindCSS
-- No ESLint errors or suppressions
-- No console errors
+- Search functionality to filter books by title
+- Feature to mark/unmark books as favorites
+- Component-based architecture
+- Styled with TailwindCSS
 
 ## 📦 Installation & Running the Project
 
